@@ -1,4 +1,4 @@
-# vue-crab-cli
+# George the Vue Crab
 ![alt text](https://raw.githubusercontent.com/raffobaffo/VueCrab/master/src/assets/screenshotCut.png)
 
 ## Project setup
