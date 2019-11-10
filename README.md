@@ -1,9 +1,9 @@
 # George the Vue Crab
 ![alt text](https://raw.githubusercontent.com/raffobaffo/VueCrab/master/src/assets/crabScreenAnimate.gif)
 
-## Project setup
+## How to play
 ```
-npm install
+Click start and use the keyboard spacebar to jump and avoid plastic bags.
 ```
 
 ### Compiles and hot-reloads for development
@@ -11,16 +11,4 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
