@@ -1,0 +1,94 @@
+
+
+#app {
+
+    width:100vw;
+    height: 100vh;
+}
+
+.game-screen {
+
+    overflow:hidden;min-height:400px;
+    background: linear-gradient(0deg, rgba(7,124,126,1) 0%, rgba(7,103,131,1) 46%, rgba(7,104,131,1) 50%, rgba(0,243,255,0.8673844537815126) 100%);
+}
+
+.game-over-container {
+
+
+    background-color: rgba(255,253,248,0.75);
+}
+
+.play-again-button {
+
+    font-size: 2em;
+    color: #ff5d2b !important;
+    font-variant-caps: all-petite-caps;
+    cursor:pointer;
+    font-weight: 900;
+}
+
+.play-again-button:hover {
+
+    color: #ff9269 !important;
+
+}
+.collapse-squirrel {
+
+    animation: collapsedSquirrel;
+    animation-duration: 5s;
+    transform-origin: bottom;
+    margin-left: -20em;
+    margin-bottom: 15em;
+}
+
+@keyframes collapsedSquirrel {
+    0%{
+        transform: rotateY(-45deg) ;
+
+    }
+    1000%{
+        transform: rotateY(-4deg)
+
+    }
+
+}
+
+@keyframes squirrelOut {
+
+    0%{
+        transform: rotateZ(0deg);
+        margin-bottom: 1em;
+    }
+    50%{
+        transform: rotateZ(290deg);
+        margin-bottom: 19em;
+
+
+    }
+    100%{
+        transform: rotateZ(-270deg);
+        margin-bottom: 14em;
+
+    }
+}
+
+
+.plastic-bag {
+
+    animation: squirrelOut;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+.plastic-bag-al {
+
+    animation: squirrelOut;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
+}
