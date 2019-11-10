@@ -1,5 +1,5 @@
 # George the Vue Crab
-![alt text](https://raw.githubusercontent.com/raffobaffo/VueCrab/master/src/assets/screenshotCut.png)
+![alt text](https://raw.githubusercontent.com/raffobaffo/VueCrab/master/src/assets/crabScreenAnimate.gif)
 
 ## Project setup
 ```
